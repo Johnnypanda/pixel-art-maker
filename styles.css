@@ -1,0 +1,77 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: #C9FFBF;  /* fallback for old browsers */ 
+    background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+h1 {
+    font-family: Luckiest Guy, cursive;
+    letter-spacing: 3px;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+    margin: 0 auto;
+    -webkit-box-shadow: 9px 11px 21px 1px rgba(0,0,0,0.12);
+    -moz-box-shadow: 9px 11px 21px 1px rgba(0,0,0,0.12);
+    box-shadow: 9px 11px 21px 1px rgba(0,0,0,0.12);
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+#size-picker{
+    display: inline-block;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input[type=color] {
+    cursor: pointer;
+}
+input[type=submit] {
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
